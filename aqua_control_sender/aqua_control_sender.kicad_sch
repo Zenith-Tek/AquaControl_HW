@@ -4194,320 +4194,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IRLML6402"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRLML6402"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "P-Channel HEXFET MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IRLML6402_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IRLML6402_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 76.2 144.78)
@@ -4630,18 +4316,6 @@
 		(uuid "e843e36a-0eb4-4622-adbc-5acfeb7dfe89")
 	)
 	(rectangle
-		(start 106.68 144.78)
-		(end 135.89 191.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f7c48769-587e-4ba8-a7a7-8d583f490a7f")
-	)
-	(rectangle
 		(start 45.72 96.52)
 		(end 74.93 143.51)
 		(stroke
@@ -4674,16 +4348,6 @@
 			)
 		)
 		(uuid "0e3b09e1-f4d7-4bef-aefc-d2303474b12f")
-	)
-	(text "D"
-		(exclude_from_sim no)
-		(at 116.332 172.974 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "37d80f02-f673-4049-a00a-9074ac0202ad")
 	)
 	(text "LDO SECTION"
 		(exclude_from_sim no)
@@ -4718,28 +4382,6 @@
 		)
 		(uuid "496210bc-69ef-4925-9279-e81c1fbdf3cf")
 	)
-	(text "Protection"
-		(exclude_from_sim no)
-		(at 114.808 149.352 0)
-		(effects
-			(font
-				(face "Aldrich")
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "49f29b63-9adf-41cb-956f-0138dc4fdc67")
-	)
-	(text "Reverse Polarity "
-		(exclude_from_sim no)
-		(at 118.364 146.812 0)
-		(effects
-			(font
-				(face "Aldrich")
-				(size 1.778 1.778)
-			)
-		)
-		(uuid "4c854e06-b537-492c-b1a4-d8b9593a00d0")
-	)
 	(text "AQUA_CONTROL_SENDER\n"
 		(exclude_from_sim no)
 		(at 215.392 22.098 0)
@@ -4752,16 +4394,6 @@
 			)
 		)
 		(uuid "6a6dc1b3-36e4-4c78-8052-adcca15c6380")
-	)
-	(text "S"
-		(exclude_from_sim no)
-		(at 116.332 163.322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "832f194a-dd83-46fe-9060-82192e5fb01b")
 	)
 	(text "UART Section\n"
 		(exclude_from_sim no)
@@ -4784,16 +4416,6 @@
 			)
 		)
 		(uuid "a0a28e47-6ea8-4233-951f-90e49b147afb")
-	)
-	(text "G"
-		(exclude_from_sim no)
-		(at 120.396 170.434 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0fbcdbf-80b9-40b0-b700-3063c24ace22")
 	)
 	(text "JSN-SR04\n"
 		(exclude_from_sim no)
@@ -5141,16 +4763,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 157.48) (xy 115.57 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce82a59-651b-4ead-abb0-897705551d49")
-	)
-	(wire
-		(pts
 			(xy 58.42 130.81) (xy 58.42 133.35)
 		)
 		(stroke
@@ -5278,16 +4890,6 @@
 			(type default)
 		)
 		(uuid "390cbb2e-d2c6-434c-8049-8ebd244436ab")
-	)
-	(wire
-		(pts
-			(xy 115.57 181.61) (xy 115.57 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a1d03fd-425d-49b2-87fa-03d5a1f76e63")
 	)
 	(wire
 		(pts
@@ -5871,16 +5473,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 168.91) (xy 123.19 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfbef752-5300-415b-ba68-195bd1e19faf")
-	)
-	(wire
-		(pts
 			(xy 52.07 151.13) (xy 54.61 151.13)
 		)
 		(stroke
@@ -6162,30 +5754,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "5v"
-		(shape input)
-		(at 115.57 181.61 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "284c84b5-6ab6-40b6-867d-427230f88938")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 186.7723 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7029,30 +6597,6 @@
 			)
 		)
 	)
-	(global_label "Vin"
-		(shape input)
-		(at 115.57 157.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9cb378c7-fd81-4aae-b5b9-c690a4f73eaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 151.6524 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "TX_ECHO"
 		(shape input)
 		(at 88.9 166.37 0)
@@ -7362,30 +6906,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 125.73 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1c43465-c22b-482b-a1ba-88c94ba0e5e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.5857 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11183,93 +10703,6 @@
 			(project "aqua_control_sender"
 				(path "/8776bf0f-bc53-4fb6-b8a5-6af29be47ebb"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 118.11 168.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d1efa49d-f98e-46df-ba2e-e1fa40269fd3")
-		(property "Reference" "Q2"
-			(at 112.268 165.354 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 128.778 164.338 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 113.03 167.005 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 113.03 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 118.11 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dcedd773-6258-456a-9aaf-71c1e8a2f539")
-		)
-		(pin "3"
-			(uuid "b233f9dc-2b27-4652-9bf6-bf5ac8d88902")
-		)
-		(pin "2"
-			(uuid "6ac45831-f988-45ad-9c19-efedf85119e3")
-		)
-		(instances
-			(project "aqua_control_sender"
-				(path "/8776bf0f-bc53-4fb6-b8a5-6af29be47ebb"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
