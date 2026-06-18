@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SLA05VDCSLC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SLA05VDCSLC")
+        (spec "default")
+    )
+)

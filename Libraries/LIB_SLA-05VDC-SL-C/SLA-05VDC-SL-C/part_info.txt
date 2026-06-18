@@ -1,0 +1,9 @@
+Manufacturer=Songle Relay
+PartNumber=SLA-05VDC-SL-C
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=6
+Version=1.4
+Released=2019-10-01 14:41:09
+Downloaded=2026-06-17 11:36:21
+3D=Y

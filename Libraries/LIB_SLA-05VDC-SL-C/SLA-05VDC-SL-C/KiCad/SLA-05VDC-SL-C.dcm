@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SLA-05VDC-SL-C
+D Relays General Purpose Non Latching 5VDC SPDT 30A (250VAC) Max Plugin RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Ningbo-Songle-Relay-SLA-05VDC-SL-C_C87367.pdf
+$ENDCMP
+#
+#End Doc Library

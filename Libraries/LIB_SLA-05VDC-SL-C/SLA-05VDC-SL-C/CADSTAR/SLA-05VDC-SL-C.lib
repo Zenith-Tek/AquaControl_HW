@@ -1,0 +1,18 @@
+.SLA-05VDC-SL-C :1 ;Relays General Purpose Non Latching 5VDC SPDT 30A (250VAC) Max Plugin RoHS
+SLA05VDCSLC
+*STM K
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="NO" 4="NC" 5="COIL_1" 6="COIL_2"
+*MXP 6
+*DFN SLA-05VDC-SL-C
+~!Manufacturer_Name (Songle Relay)
+~!Manufacturer_Part_Number (SLA-05VDC-SL-C)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/Ningbo-Songle-Relay-SLA-05VDC-SL-C_C87367.pdf)
+~!Height (20.4mm)
+~!3D_Model (SLA-05VDC-SL-C)
+SLA-05VDC-SL-C
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
