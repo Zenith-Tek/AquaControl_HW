@@ -3,4 +3,6 @@
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/aqua_control_sender-backups/Library.pretty") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/aqua_control_sender-backups/Library.pretty") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
+	(lib (name "esp32c3") (type "KiCad") (uri "${KIPRJMOD}/esp32c3.pretty") (options "") (descr ""))
+	(lib (name "mosfet") (type "KiCad") (uri "C:/Users/jnana/OneDrive - Zenith Tek/Projects/FY_2026-27/AquaControl/mosfet.pretty") (options "") (descr ""))
 )
