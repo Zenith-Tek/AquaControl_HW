@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "relay") (type "KiCad") (uri "C:/Users/jnana/Downloads/LIB_SLA-05VDC-SL-C/relay.pretty") (options "") (descr ""))
 	(lib (name "hilink") (type "KiCad") (uri "${KIPRJMOD}/hilink.pretty") (options "") (descr ""))
+	(lib (name "sw_smd") (type "KiCad") (uri "C:/Users/jnana/OneDrive - Zenith Tek/Projects/FY_2026-27/AquaControl/Libraries/sw/sw_smd.pretty") (options "") (descr ""))
 )
